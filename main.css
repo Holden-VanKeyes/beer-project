@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 1rem;
+    text-align: center;
+    background-color: #a8ebf5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header {
+    padding: 0.5rem;
+    width: 100%;
+    color: white;
+    background-color: rgb(21, 46, 83);
+  }
+
+  select {
+    position: absolute;
+    left: 50px;
+    top: 305px;
+
+  }
+
+  #suggestion {
+    position: absolute;
+    left: 75px;
+    top: 605px;
+  }
+
+  #beer-selection {
+    position: relative;
+  }
+  
+  .detail-image {
+    height: 400px;
+  }
+  
+  .name {
+    position: absolute;
+    left: 10px;
+    padding: 0.25rem 5rem 0.25rem 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .name {
+    bottom: 60px;
+  }
+  
+
+  #food-pairing {
+    position: absolute;
+    left: 10px;
+    top: 400px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    height: 180px;
+    width:  200px;
+    }
+    #hold-food{
+      position: absolute;
+      left: 15px;
+      bottom: 60px;
+      font-size: 14px;
+      }
+    
+      
+  .beer-pic{
+    bottom: 10px;
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+  }
+
+  .food-pic{
+    bottom: 10px;
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+  }
+
+  #beer-rec {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    height: 180px;
+    width:  200px;
+    }
+    #hold-beers{
+    
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    font-size: 14px;
+    }
+    
+
+  #selector {
+  font-size: 1rem;
+  border: 1px solid black;
+  background-color: white;
+  padding: 0.5rem;
+  margin: 0.25rem 0;
+  width: 100%;
+}
+
+  #selector {
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+ 
+/* CSS */
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+#your-city{
+  position: relative;
+  bottom: 180px;
+  left: 400px;
+  right: 200px;
+  }
+
+
+.boxed {
+  position: relative;
+  top: 35px;
+    text-align: center;
+    padding: 20px 0;
+    padding-left: 2px 0;
+    
+    width: 200px;
+    height: 75px;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+  }
+  #secret{
+    position: relative;
+    
+    
+    top: 80px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    height: 50px;
+    width:  50px;
+  }
+  .j{
+    bottom: 10px;
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+  }
+
+  #local-breweries{
+    position: absolute;
+    right: 150px;
+    top: 180px;
+  }
+  span {
+    color: rgb(115, 69, 243);}
+
+    
+  #zip-list{
+    position: relative;
+    bottom: 100px;
+    left: 100px
+    }
+
+    #hold-jokes{
+      position: relative;
+      top: 90px;
+      left: 0px;
+    }

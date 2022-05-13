@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Beer Buzzer</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+     <script defer src='index.js'></script> 
+    <!--script src='js/demo.js'></script-->
+  </head>
+  <body>
+    <header>
+        <h3>BEER BONANZA</h3>
+      </header>
+    <div id="beer-selection">
+        <img class="detail-image" src="https://gothops.blog/wp-content/uploads/2020/08/beer-glass-question-mark.jpg" alt="Insert Name Here" />
+        
+      </div>
+      
+      <button class="button-85" role="button">Hammered Handle</button>
+
+      <div id="beer-rec">
+        <img class="beer-pic" src="https://img.freepik.com/free-photo/fun-illustrated-beer-character-holding-question-mark_183364-23481.jpg" alt="oops...something went wrong"/>
+      </div>
+      
+
+      <div id="food-pairing">
+        <img class="food-pic" src="https://previews.123rf.com/images/pixelbliss/pixelbliss1509/pixelbliss150900035/45300153-junk-food-question-mark.jpg" alt="oops...something went wrong" />
+      </div>
+
+      
+    <select id="abv-push" name="abv">
+        <option value="abv_lt=5.0">tipsy</option>
+        <option value="abv_gt=5.0&abv_lt=7.0">twinkle-toed</option>
+        <option value="abv_gt=7.0">tanked</option>
+    </select>
+
+  
+
+    <select id="suggestion" name="food">
+      <option value="spicy">spicy</option>
+      <option value="cheese">cheese</option>
+      <option value="crab">crab</option>
+      <option value="avocado">avocado</option>
+      <option value="sweet">sweet</option>
+  </select>
+  <div id="result"></div>
+
+    <div class="boxed">
+        <p id="secret-name"></p>
+      </div>
+
+      <form id="local-breweries">
+       <label for="yourZip">Enter City</label><br>
+      <input type="text" id="idEntry" name="idEntry"><br>
+      <input type="submit" id="submit" value="GO">
+      </form>
+      <div id="secret">
+        <img class="j" src="https://media2.giphy.com/media/U3tCaJQ6wxJtzUeBzs/giphy_s.gif" alt="oops...something went wrong"/>
+      </div>
+  <section id="your-city"> 
+    
+    <ul id="zip-list"></ul>
+  </section>   
+  
+  <ul id="hold-beers"></ul>
+  <ul id="hold-food"></ul>
+
+  <div id="hold-jokes"></div>
+    
+  </body>
+</html>
